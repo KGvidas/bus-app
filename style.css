@@ -47,4 +47,34 @@
   }
 /*   
   --------------CSS RESET ------------ */
-  
+  --------------CSS RESET ------------ */
+
+  /* FLEXBOX LAYOUT */
+  * {
+    text-align: center;
+  }
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    padding: 1em;
+    background-color: #222222;
+    color: #eeb100;
+}
+main {
+    flex: auto;
+    background-color: #f3f3f3;
+}
+footer {
+    padding: 0.5em;
+    color: #ffffff;
+    background-color: #222222;
+}
+ /* FLEXBOX LAYOUT */
