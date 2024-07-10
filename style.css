@@ -1,25 +1,85 @@
-
- * {
+/* --------------CSS RESET ------------ */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
   margin: 0;
- }
- body {
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+/*   
+--------------CSS RESET ------------ */
+
+/* FLEXBOX LAYOUT */
+* {
+  text-align: center;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
   display: flex;
   flex-direction: column;
- }
- header {
+  min-height: 100vh; /* Ensure body takes full viewport height */
+}
+header {
+  height: 70px;
   background-color: #363636;
-  min-height: 47px;
   color: #ffffff;
- }
- .virsutinistarpas{
-  height: 70px;
-  background-color: #a1a1a1;
- }
- .mainBox{
-  flex: auto;
-  background-color: #ffffff;
- }
- footer {
-  height: 70px;
-  background-color: #a1a1a1;
- }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  flex: 1; /* Allow main to grow and take the remaining space */
+}
+.mainBox {
+  flex: 1; /* Ensure mainBox takes up the available space within main */
+}
+footer {
+  padding: 0.5em;
+  color: #ffffff;
+  background-color: #222222;
+}
+/* FLEXBOX LAYOUT */
