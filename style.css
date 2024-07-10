@@ -67,6 +67,7 @@ header {
   height: 70px;
   background-color: #363636;
   color: #ffffff;
+  text-align:start;
 }
 main {
   display: flex;
@@ -74,12 +75,23 @@ main {
   background-color: #f3f3f3;
   flex: 1; /* Allow main to grow and take the remaining space */
 }
+.virs {
+  height: 70px;
+}
 .mainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1; /* Ensure mainBox takes up the available space within main */
 }
+.container {
+  height: 584px;
+  width: 347px;
+  border-radius: 19px;
+  border: 1px solid red;
+}
 footer {
-  padding: 0.5em;
-  color: #ffffff;
-  background-color: #222222;
+  height: 45px;
+  background-color: #a1a1a1;
 }
 /* FLEXBOX LAYOUT */
