@@ -64,7 +64,8 @@ body {
     flex-direction: column;
 }
 header {
-    padding: 1em;
+    min-width: 1080px;
+    min-height: 242px;
     background-color: #222222;
     color: #eeb100;
 }
