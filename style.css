@@ -65,7 +65,7 @@ body {
 }
 header {
   height: 70px;
-  background-color: #363636;
+  background-color: #1f1f1f;
   color: #ffffff;
   text-align:start;
 }
@@ -87,8 +87,40 @@ main {
 .container {
   height: 584px;
   width: 347px;
+  background-color: #ffffff;
   border-radius: 19px;
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  background-color: #363636;
+  height: 60px;
+  border-radius: 19px 19px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: bold;
+}
+.valandos {
+  height: 70px;
+  padding: 37px 22px 0 22px;
+  display: flex;
+  font-size: 23px;
+  font-weight: bold;
+  border: 1px solid red;
+}
+.kaire {
+  margin-right: auto;
+}
+.progressbar {
+  height: 9px;
+  width: 299px;
+  border-radius: 9px;
+  border: 1px solid #4d5c68;
+  margin: 15px auto;
 }
 footer {
   height: 45px;
