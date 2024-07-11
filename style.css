@@ -119,8 +119,31 @@ main {
   height: 9px;
   width: 299px;
   border-radius: 9px;
-  border: 1px solid #4d5c68;
+  border: 2px solid #4d5c68;
   margin: 15px auto;
+}
+.zemiauProgress {
+  padding: 0px 22px 35px 22px;
+  font-size: 14px;
+  color: #a1a1a1;
+  display: flex;
+  border: 1px solid red;
+}
+.dataTekstas {
+  margin: 0px 22px 11px 22px;
+  font-size: 14px;
+  color: #a1a1a1;
+  text-align: start;
+  border: 1px solid red;
+}
+.dataIrLaikas {
+  margin: 0px 22px 0px 22px;
+  margin-bottom: 25px;
+  text-align: start;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  border: 1px solid red;
 }
 footer {
   height: 45px;
