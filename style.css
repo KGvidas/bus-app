@@ -145,9 +145,68 @@ main {
   color: #000000;
   border: 1px solid red;
 }
+.keleivisTekstas{
+  margin: 0px 22px 13px 22px;
+  font-size: 14px;
+  color: #a1a1a1;
+  text-align: start;
+  border: 1px solid red;
+}
+.vardasTekstas {
+  color: #000000;
+  font-size: 21px;
+  margin: 0px 22px 27px 22px;
+  border: 1px solid red;
+  text-align: start;
+  font-weight: bold;
+}
+.nuoladisoTekstas{
+  margin: 0px 22px 13px 22px;
+  font-size: 14px;
+  color: #a1a1a1;
+  text-align: start;
+  border: 1px solid red;
+}
+.iprastinisTekstas {
+  margin: 0px 22px 24px 22px;
+  color: #000000;
+  font-size: 21px;
+  border: 1px solid red;
+  text-align: start;
+  font-weight: bold;
+}
+.containerForShapes{
+  display: flex;
+  /* border: 1px solid red; */
+}
+.dotLeft {
+  height: 20px;
+  width: 20px;
+  background-color: #a1a1a1;
+  border-radius: 100px 0 0 100px;
+  display: inline-block;
+  margin-right: auto;
+  transform: rotate(180deg);
+}
+.line {
+  border-bottom: 5px dotted #a1a1a1;
+  width: 310px; /* Adjust this width as needed */
+  margin: 0 0 10px 0;
+}
+.dotRigth{
+  height: 20px;
+  width: 20px;
+  background-color: #a1a1a1;
+  border-radius:  100px 0 0 100px;
+  display: inline-block;
+  margin-left: auto;
+}
 footer {
   height: 45px;
   background-color: #a1a1a1;
   margin-top: -1px; /* Add this line to ensure footer overlaps any gap */
 }
 /* FLEXBOX LAYOUT */
+
+
+/* y */
